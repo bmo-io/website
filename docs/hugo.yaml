@@ -1,18 +1,18 @@
-baseURL: https://example.org/
+baseURL: https://bmo.io/
 languageCode: en-us
-title: StreamPipe
+title: Bmo-io
 theme: "hextra"
 
 menu:
   main:
-    - name: Documentation
-      pageRef: /docs
-      weight: 1
-    - name: Blog
-      pageRef: /blog
-      weight: 2
     - name: About
       pageRef: /about
+      weight: 1
+    - name: Projects
+      pageRef: /projects
+      weight: 2
+    - name: Resources
+      pageRef: /resources
       weight: 3
     - name: Search
       weight: 4
@@ -20,7 +20,7 @@ menu:
         type: search
     - name: GitHub
       weight: 5
-      url: "https://github.com/imfing/hextra"
+      url: "https://github.com/bmo-io"
       params:
         icon: github
 
@@ -39,7 +39,7 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: ./images/logo.png
+      path: ./images/final-logo.png
       link: .
-      width: 20
-      height: 20
+      width: 40
+      height: 40
