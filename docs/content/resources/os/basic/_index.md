@@ -21,7 +21,7 @@ techniques,including:
   to interact with the system.
 - [resource management](---), which ensures efficient and fair allocation of
   CPU, memory, storage, and other resources.
-- [isolation](---) which enforces boundaries between applications to prevent
+- [isolation](---), which enforces boundaries between applications to prevent
   interference and enhance security.
 
 These techniques build **abstractions** that make the system more convenient and
