@@ -8,9 +8,10 @@ cascade:
 
 > Based on [Operating System](https://pages.cs.wisc.edu/~remzi/OSTEP/) book.
 
-We'll start from a basic question, **What is Operating System?** A program that
-ensures the computer system operates correctly and efficiently while providing
-an easy-to-use interface for users.
+We'll start from a basic question, **What is Operating System?**
+
+A program that ensures the computer system operates correctly and efficiently
+while providing an easy-to-use interface for users.
 
 The Operating System achieves its goals through several key
 techniques,including:
