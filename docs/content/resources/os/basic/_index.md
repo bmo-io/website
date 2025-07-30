@@ -21,8 +21,9 @@ techniques,including:
   to interact with the system.
 - [resource management](---), which ensures efficient and fair allocation of
   CPU, memory, storage, and other resources.
+- [isolation](---) which enforces boundaries between applications to prevent
+  interference and enhance security.
 
 These techniques build **abstractions** that make the system more convenient and
-easier to use. Furthermore, an Operating System must deliver high performance by
-minimizing overhead, all while ensuring strong isolation and protection between
+easier to use. All while ensuring strong isolation and protection between
 concurrently running applications.
