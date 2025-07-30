@@ -6,8 +6,7 @@ cascade:
 
 **TODO: ADD Refrence to correct section on each**
 
-This subsection is based on
-[Operating System](https://pages.cs.wisc.edu/~remzi/OSTEP/) book.
+> Based on [Operating System](https://pages.cs.wisc.edu/~remzi/OSTEP/) book.
 
 We'll start from a basic question, **What is Operating System?** A program that
 ensures the computer system operates correctly and efficiently while providing
