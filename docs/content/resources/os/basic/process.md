@@ -12,7 +12,7 @@ as CPU virtualization. This is achieved through a technique called
 where the CPU rapidly switches between tasks to give each the appearance of
 running simultaneously. Each of these running programs is known as a process.
 
-### What is process?
+#### What is process?
 
 A process is made up of the program code and the machine state necessary for
 execution — including the stack, heap, registers, and other essential
