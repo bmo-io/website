@@ -42,3 +42,50 @@ loading the state of another process to run on the CPU is known as a
 [context switch](https://en.wikipedia.org/wiki/Context_switch).
 
 > More information of process state can be find [here](TODO).
+
+The operating system allows us to create and manage processes using the
+following system calls:
+
+#### Fork
+
+Creates a new process by duplicating the current
+one.[more details](https://man7.org/linux/man-pages/man2/fork.2.html)
+
+#### Wait
+
+Delays the parent’s execution until the child process finishes or terminates.
+[more details](https://man7.org/linux/man-pages/man2/wait.2.html)
+
+#### Exec
+
+Calling aother process from this process. (does no't create new one but load the
+other process code into current process and run it)
+[more details](https://man7.org/linux/man-pages/man3/exec.3.html)
+
+#### Pipe
+
+Create a queue, a uniderctional data channel to be used for interprocess.
+[more details](https://man7.org/linux/man-pages/man2/pipe.2.html)
+
+##### Question
+
+After reading these three system calls, how can one create a simple prompt using
+fork() and wait()?
+
+When one type `> echo "Hello World"` what happends?
+
+> Try to define which is the parent and which is the child. In addition, when
+> running a CLI command, are we allowed to type a new command before the last
+> one finishes?
+
+When one type `wc "Hello World" > example.txt` what happends?
+
+> When wc is run unix stystem is looking for free file descriptor at 0.
+
+When one type `echo "Hello World" | wc` what happends?
+
+> Try to think of the order of execution and which should wait to another.
+
+Other importent syscall is
+[kill](https://man7.org/linux/man-pages/man2/kill.2.html), allowing to send
+signals to process.
