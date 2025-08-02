@@ -46,26 +46,18 @@ loading the state of another process to run on the CPU is known as a
 The operating system allows us to create and manage processes using the
 following system calls:
 
-#### Fork
+**Fork**: Creates a new process by duplicating the current one.
+[more details](https://man7.org/linux/man-pages/man2/fork.2.html)
 
-Creates a new process by duplicating the current
-one.[more details](https://man7.org/linux/man-pages/man2/fork.2.html)
+**Wait**: Delays the parent’s execution until the child process finishes or
+terminates.[more details](https://man7.org/linux/man-pages/man2/wait.2.html)
 
-#### Wait
-
-Delays the parent’s execution until the child process finishes or terminates.
-[more details](https://man7.org/linux/man-pages/man2/wait.2.html)
-
-#### Exec
-
-Calling aother process from this process. (does no't create new one but load the
-other process code into current process and run it)
+**Exec**: Calling aother process from this process. (does no't create new one
+but load the other process code into current process and run it).
 [more details](https://man7.org/linux/man-pages/man3/exec.3.html)
 
-#### Pipe
-
-Create a queue, a uniderctional data channel to be used for interprocess.
-[more details](https://man7.org/linux/man-pages/man2/pipe.2.html)
+**Pipe**: Create a queue, a uniderctional data channel to be used for
+interprocess. [more details](https://man7.org/linux/man-pages/man2/pipe.2.html)
 
 ##### Question
 
