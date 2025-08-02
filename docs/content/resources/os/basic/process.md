@@ -61,7 +61,7 @@ interprocess. [more details](https://man7.org/linux/man-pages/man2/pipe.2.html)
 
 ##### Question
 
-After reading these three system calls, how can one create a simple prompt using
+After reading these system calls, how can one create a simple prompt using
 fork() and wait()?
 
 When one type `> echo "Hello World"` what happends?
