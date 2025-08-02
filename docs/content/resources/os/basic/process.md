@@ -18,7 +18,7 @@ A process is made up of the program code and the machine state necessary for
 execution — including the stack, heap, registers, and other essential
 componentss
 
-#### Process API:
+#### Process API
 
 The Process API provides essential functionality for managing processes,
 including:
